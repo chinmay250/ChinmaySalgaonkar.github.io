@@ -1,0 +1,212 @@
+/* Main Body  */
+
+    body{
+        color: #40514E ;
+        margin: 0;
+        text-align: center;
+        font-family: 'Merriweather Sans', sans-serif;
+
+    }
+
+
+
+
+
+/* Tags */
+
+    h1{
+        font-size: 90px;
+        margin: 40 0 0 0;
+        font-family: 'Sacramento', cursive;
+        color: #66BFBF;
+        /* width: 10%; */
+        /* margin: 0 auto; */
+    }
+
+    h2{
+        color: #66BFBF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        padding-bottom: -40px;
+    }
+
+    h3{
+        font-family: 'Montserrat', sans-serif;
+        color: #11999E;
+
+
+    }
+
+    hr{
+        border: dotted #EAF6F6 6px;
+        border-bottom: none ;
+        width: 10%;
+        margin: 100px auto;
+    }
+
+    a{
+        color: #11999E;
+        font-family: 'Montserrat', sans-serif ;
+        margin: 10px 20px;
+        text-decoration: none;
+    }
+    a:hover{
+        color: #EAF6F6;
+    }
+
+
+
+
+/* Division Tags */
+
+    div{
+        /* background-color: #E4F9F9; */
+        border-width: 0px,10px,10px,10px;
+        padding: 10px;
+        margin: 10px;
+        top: 10px;
+        
+    }
+
+
+
+/* Classes */
+
+
+/* Top Container */
+
+        .top{
+            color: #66BFBF;
+            background-color: #E4F9F9;
+            position: relative;
+            padding-top: 40px;
+        }
+
+        .upper_cloud{
+            position: absolute;
+            right: 250px ;
+            top : 30px
+        }
+        .bottom_cloud{
+            position: absolute;
+            left : 250px;
+            bottom: 300px;
+        }
+
+        .top_text{
+            padding-top: -40px;
+        }
+
+
+
+/* Middle container  */
+
+        .middle-container{
+            margin: 100px 0;
+
+        }
+
+        .profile{
+
+        }
+
+        
+        .intro{
+            width: 30%;
+            margin: auto;
+        }
+
+
+        .skill-row{
+            width: 50%;
+            margin: 50px auto 50px auto;
+            text-align: left ;
+            line-height: 2;
+        }
+
+        .web{
+            text-decoration: underline;
+        }
+
+        .contact_message{
+            width: 40%;
+            margin: 40px auto 60px auto;
+        }
+
+        .chinu{
+            border: 1px solid #ddd;
+            border-radius: 100%;
+            padding: 5px;
+            width: 160px;
+        }
+        .chinu:hover{
+            box-shadow: 0 0 3px 2px rgba(46, 181, 226, 0.5);
+        }
+
+        .code-img{
+            width: 25%;
+            float: left;
+            border-radius: 100%;
+            margin : 30px;
+        }
+
+        .vadapav-img{
+            width: 25%;
+            float: right;
+            margin: 10px;
+            border-radius: 100%;
+        }
+
+
+
+        .btn {
+        background: #11cdd4;
+        background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+        background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 8px;
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        }
+
+        btn:hover{
+        background: #30e3cb;
+        background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+        text-decoration: none;
+        }
+
+
+        p{
+            line-height: 2;
+        }
+
+
+/* Bottom Container  */
+    .bottom-container{
+        background-color: #66BFBF;
+        padding: 50px 0 20px;
+
+    }
+
+    .footer-link{
+        color: #11999E;
+    }
+
+    .copyright {
+        color: #EAF6F6;
+        font-size: 0.75rem;
+        padding: 20px 0px;
+    }
+
+    
